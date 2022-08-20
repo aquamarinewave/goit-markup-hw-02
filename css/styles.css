@@ -88,6 +88,11 @@ body {
 }
 
 /* Hero */
+
+.hero {
+    background-color: var(--dark-bg-color);
+}
+
 .hero-header {
     font-weight: 900;
     font-size: 44px;
@@ -96,7 +101,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--light-text-color);
-    background-color: var(--dark-bg-color); /*Add to see white text on white bg, need to be delete after add section bg*/
 }
 
 .hero-btn {
