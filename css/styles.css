@@ -1,0 +1,31 @@
+:root {
+/* fonts */
+--main-font-familly: 'Roboto', sans-serif;
+--submain-font-family: 'Raleway', sans-serif;
+--main-font-size: 14px;
+--logo-font-size: 26px;
+--submain-font-size: 16px;
+--section-header-font-size: 36px;
+--subsection-header-font-size: 18px;
+/* text colors */
+--accent-text-color: #2196F3;
+--main-text-color: #212121;
+--light-main-color: #FFFFFF;
+--submain-text-color: #757575;
+/* background colors */
+--accent-bg-color: #2196F3;
+--main-bg-color: #F5F5F5;
+--submain-bg-color: #F5F4FA;
+--dark-bg-color: #2F303A;
+/* active */
+--active-color: #2196F3;
+}
+
+body {
+    font-family: var(--main-font-familly);
+    font-size: var(--main-font-size);
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+}
+
+
